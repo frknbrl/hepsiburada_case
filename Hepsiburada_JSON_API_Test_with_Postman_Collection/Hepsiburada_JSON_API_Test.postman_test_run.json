@@ -1,0 +1,80 @@
+{
+	"id": "948559ce-364d-487c-a51c-c39204a56eeb",
+	"name": "Hepsiburada_JSON_API_Test",
+	"timestamp": "2021-03-07T19:28:54.204Z",
+	"collection_id": "d743ec41-d510-4b5f-9383-da4fad9444c5",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 1,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "bc109557-03fa-4307-8125-ae26af597a57",
+			"name": "Success_Case",
+			"url": "https://generator.swagger.io/api/swagger.json",
+			"time": 312,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				312
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3ccd0f3a-e479-4484-b5fd-60d485d91b4d",
+			"name": "Failure_Case",
+			"url": "https://generator.swagger.io/api/swagger1.json",
+			"time": 141,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				141
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 453,
+	"collection": {
+		"requests": [
+			{
+				"id": "bc109557-03fa-4307-8125-ae26af597a57",
+				"method": "GET"
+			},
+			{
+				"id": "3ccd0f3a-e479-4484-b5fd-60d485d91b4d",
+				"method": "GET"
+			}
+		]
+	}
+}
